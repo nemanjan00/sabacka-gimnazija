@@ -11,6 +11,8 @@
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<link href="css/styles.css" rel="stylesheet">
+
+		<base href="/" target="_self">
 	</head>
 	<body>
 		<nav class="navbar navbar-default navbar-fixed-top">
