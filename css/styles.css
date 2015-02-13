@@ -10,9 +10,9 @@
 
 header {
 	position: absolute;
-	z-index: 1000;
-	left: 125px;
-	top:120px;
+	z-index: 100;
+	left: 115px;
+	top:100px;
 }
 
 .sadrzaj{
@@ -144,8 +144,8 @@ background-color: #CFC8F5;
 
 .carousel-caption {
 	border-radius: 25px;
-
-	background-color:rgba(34, 33, 92, 0.72);
+	padding: 10px;
+	background-color:rgba(33, 34, 92, 0.62);
 }
 
 
