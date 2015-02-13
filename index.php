@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<base href="<?=htmlspecialchars(dirname($_SERVER["SCRIPT_NAME"]));?>/" />
+
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
 		<title>Шабачка гимназија</title>
@@ -12,7 +14,7 @@
 		<![endif]-->
 		<link href="css/styles.css" rel="stylesheet">
 
-		<base href="/" target="_self">
+		<link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 	</head>
 	<body>
 		<nav class="navbar navbar-default navbar-fixed-top">
@@ -35,6 +37,42 @@
 							<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
 								<li><a href="#">Историјат</a></li>
 								<li><a href="#">Школа данас</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ученици <i class="glyphicon glyphicon-chevron-down"></i></a>
+
+							<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+								<li><a href="#">Бивши ученици</a></li>
+								<li><a href="#">Такмичења</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ученици <i class="glyphicon glyphicon-chevron-down"></i></a>
+
+							<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+								<li><a href="#">Бивши ученици</a></li>
+								<li><a href="#">Такмичења</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ученици <i class="glyphicon glyphicon-chevron-down"></i></a>
+
+							<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+								<li><a href="#">Бивши ученици</a></li>
+								<li><a href="#">Такмичења</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ученици <i class="glyphicon glyphicon-chevron-down"></i></a>
+
+							<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+								<li><a href="#">Бивши ученици</a></li>
+								<li><a href="#">Такмичења</a></li>
 							</ul>
 						</li>
 

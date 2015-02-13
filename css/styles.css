@@ -4,7 +4,12 @@
 	height: 70px;
 	padding-top: 0;
 
-	font-size: 1.5em;
+	font-size: 1em;
+}
+
+.navbar-brand{
+	font-size: 1.2em;
+	font-weight:bold;
 }
 
 .navbar-toggle {
@@ -44,6 +49,7 @@ header img {
 body {
 	background-color:#e4e4e4;
 	padding-bottom: 40px;
+	font-family: Arvo, serif;
 }
 
 /* Linkovi */
@@ -202,7 +208,7 @@ a,a:hover {
 	}
 
 	.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse{
-		max-height: none !important; 
+		max-height: none !important;
 	}
 }
 
