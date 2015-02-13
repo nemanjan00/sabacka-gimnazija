@@ -13,8 +13,6 @@
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<link href="css/styles.css" rel="stylesheet">
-
-		<link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 	</head>
 	<body>
 		<nav class="navbar navbar-default navbar-fixed-top">
