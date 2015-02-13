@@ -2,6 +2,8 @@
 	width:auto;
 }
 
+/* Grb gimnazije na mobilnom */
+
 header {
 	position: absolute;
 	z-index: 11;
@@ -14,20 +16,27 @@ header img {
 	left: -50%;
 }
 
+/* Prostor ispod menija */
+
 .sadrzaj{
 	margin-top:100px;
 }
 
+/* Pozadina */
+
 body {
-	color:#828282;
 	background-color:#e4e4e4;
 	padding-bottom: 40px;
 }
+
+/* Linkovi */
 
 a,a:hover {
 	color:#adadad;
 	text-decoration:none;
 }
+
+/* Pozadina menija */
 
 .navbar {
 	background: -webkit-linear-gradient(#2b1343, #572a84); /* For Safari 5.1 to 6.0 */
@@ -35,79 +44,74 @@ a,a:hover {
 	background: -moz-linear-gradient(#2b1343, #572a84); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(#2b1343, #572a84); /* Standard syntax */
 
-	color:#F0F0F0;
 	border:0;
 	border-radius:0;
 }
 
+/* Unutrašnji div u meniju */
+
 .navbar-nav > li > a {
-	color:#F0F0F0;
 	padding-left:20px;
 	padding-right:20px;
 }
 
+/* Link u meniju */
+
+.navbar-default .navbar-nav > li > a {
+	color: #fff !important;
+}
+
+/* Link u meniju pri prelasku */
+
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color: #afafaf !important;
+	background-color:#e4e4e4;
 }
+
+/* Link u meniju pri kliktanju */
 
 .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
 	color: #ffffff;
 	background-color:transparent;
 }
-.navbar-nav > .open > a, .navbar-nav > .open > a:hover, .navbar-nav > .open > a:focus {
-	color: #f0f0f0;
-	background-color:transparent;
-	opacity:.9;
-	border-color:#a66e00;
+
+/* Ime u meniju */
+
+.navbar-default .navbar-brand {
+	color: #ffffff;
 }
 
-.nav .open > a {
-	border-color:#777777;
-	border-width:0;
+/* Dugme u meniju */
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #fff;
 }
+
+/* Dropdown */
 
 .dropdown-menu {
 	min-width: 250px;
 }
 
+/* Okvir dugmeta za produženje menija */
+
 .navbar-toggle {
-	color:#fff;
 	border-width:0;
 }
 
-.navbar-toggle:hover {
-	background-color:#fff;
-}
+/* Panel za sadržaj stranice */
 
 .panel {
 	padding-left:27px;
 	padding-right:27px;
 }
 
+/* Panel za sadržaj na slideru */
+
 .carousel-caption {
 	border-radius: 25px;
 	padding: 10px;
 	background-color:rgba(33, 34, 92, 0.62);
-}
-
-.navbar-wrapper {
-	position: absolute;
-	top: 0;
-	right: 0;
-	left: 0;
-	z-index: 20;
-}
-
-.navbar-wrapper > .container {
-	padding-right: 0;
-	padding-left: 0;
-}
-.navbar-wrapper .navbar {
-	padding-right: 15px;
-	padding-left: 15px;
-}
-.navbar-wrapper .navbar .container {
-	width: auto;
 }
 
 .carousel {
@@ -132,33 +136,10 @@ a,a:hover {
 }
 
 @media (min-width: 768px) {
-	/* Navbar positioning foo */
-	.navbar-wrapper {
-		margin-top: 20px;
-	}
-	.navbar-wrapper .container {
-		padding-right: 15px;
-		padding-left: 15px;
-	}
-	.navbar-wrapper .navbar {
-		padding-right: 0;
-		padding-left: 0;
-	}
-
-	/* The navbar becomes detached from the top, so we round the corners */
-	.navbar-wrapper .navbar {
-		border-radius: 4px;
-	}
-
-	/* Bump up size of carousel content */
 	.carousel-caption p {
 		margin-bottom: 20px;
 		font-size: 21px;
 		line-height: 1.4;
-	}
-
-	.featurette-heading {
-		font-size: 50px;
 	}
 
 	header {
