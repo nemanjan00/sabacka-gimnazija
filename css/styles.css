@@ -1,14 +1,18 @@
 .navbar-brand,
 .navbar-nav li a {
 	line-height: 70px;
-	height: 70px;
+	min-height: 70px;
 	padding-top: 0;
 
 	font-size: 1em;
 }
 
+.navbar > div {
+	width:100%;
+}
+
 .navbar-brand{
-	font-size: 1.2em;
+	font-size: 1em;
 	font-weight:bold;
 }
 
@@ -49,7 +53,7 @@ header img {
 body {
 	background-color:#e4e4e4;
 	padding-bottom: 40px;
-	font-family: Arvo, serif;
+	/*font-family: Arvo, serif;*/
 }
 
 /* Linkovi */

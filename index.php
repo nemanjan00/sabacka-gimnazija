@@ -50,7 +50,7 @@
 						</li>
 
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ученици <i class="glyphicon glyphicon-chevron-down"></i></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Настава <i class="glyphicon glyphicon-chevron-down"></i></a>
 
 							<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
 								<li><a href="#">Бивши ученици</a></li>
@@ -59,7 +59,7 @@
 						</li>
 
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ученици <i class="glyphicon glyphicon-chevron-down"></i></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Колектив <i class="glyphicon glyphicon-chevron-down"></i></a>
 
 							<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
 								<li><a href="#">Бивши ученици</a></li>
@@ -68,7 +68,7 @@
 						</li>
 
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ученици <i class="glyphicon glyphicon-chevron-down"></i></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Упис <i class="glyphicon glyphicon-chevron-down"></i></a>
 
 							<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
 								<li><a href="#">Бивши ученици</a></li>
