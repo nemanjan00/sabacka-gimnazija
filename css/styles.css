@@ -114,6 +114,8 @@ a,a:hover {
 	background-color:rgba(33, 34, 92, 0.62);
 }
 
+/* Slider */
+
 .carousel {
 	height: 400px;
 	margin-bottom: 60px;
@@ -135,12 +137,18 @@ a,a:hover {
 	height: 400px;
 }
 
+/* Za komp */
+
 @media (min-width: 768px) {
+	/* Slider */
+
 	.carousel-caption p {
 		margin-bottom: 20px;
 		font-size: 21px;
 		line-height: 1.4;
 	}
+
+	/* Grb gimnazije */
 
 	header {
 		position: absolute;
@@ -151,6 +159,8 @@ a,a:hover {
 		position: static !important;
 	}
 }
+
+/* Podmeniji */
 
 .dropdown-submenu {
 	position: relative;
