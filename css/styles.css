@@ -211,6 +211,10 @@ a,a:hover {
 		font-size:1.5em;
 	}
 
+	.desni{
+		display: inline;
+	}
+
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus{
 		background-color: #e4e4e4;
 		color: #AFAFAF !important;
