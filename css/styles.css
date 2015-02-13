@@ -4,16 +4,27 @@
 	min-height: 70px;
 	padding-top: 0;
 
-	font-size: 1em;
-}
-
-.navbar > div {
-	width:100%;
+	font-size: 1.2em;
 }
 
 .navbar-brand{
-	font-size: 1em;
+	font-size: 1.4em;
 	font-weight:bold;
+}
+
+@media (max-width: 1280px) {
+	.navbar-brand{
+		display:none;
+	}
+
+	.navbar-brand,
+	.navbar-nav li a {
+		font-size: 1em;
+	}
+
+	.desni{
+		display: none;
+	}
 }
 
 .navbar-toggle {

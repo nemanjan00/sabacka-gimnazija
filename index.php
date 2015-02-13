@@ -86,7 +86,7 @@
 						</li>
 
 					</ul>
-					<ul class="nav navbar-right navbar-nav">
+					<ul class="nav navbar-right navbar-nav desni">
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-search"></i> <i class="glyphicon glyphicon-chevron-down"></i></a>
 							<ul class="dropdown-menu" style="padding:12px;">
