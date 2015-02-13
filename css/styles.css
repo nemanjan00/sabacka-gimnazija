@@ -9,9 +9,14 @@
 /* custom theme */
 
 header {
-	/*min-height:230px;*/
-	margin-top:45px;
-	  margin-bottom:5px;
+	position: absolute;
+	z-index: 1000;
+	left: 125px;
+	top:120px;
+}
+
+.sadrzaj{
+	margin-top:100px;
 }
 
 @media (min-width: 979px) {
@@ -38,8 +43,8 @@ body {
 }
 
 a,a:hover {
-	color:#a66e00;
-	  text-decoration:none;
+	color:#adadad;
+	text-decoration:none;
 }
 
 .highlight-bk {
@@ -55,27 +60,28 @@ a,a:hover {
 h3.highlight  {
 	padding-top:13px;
 	padding-bottom:14px;
-	  border-bottom:2px solid #ff3333;
+	border-bottom:2px solid #ff3333;
 }
 
 .navbar {
-	background-color:#ffd632;
-	  color:#3023bf;
+	background: -webkit-linear-gradient(#2b1343, #572a84); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#2b1343, #572a84); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#2b1343, #572a84); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#2b1343, #572a84); /* Standard syntax */
+
+	color:#F0F0F0;
 	border:0;
-	  border-radius:0;
+	border-radius:0;
 }
 .navbar-nav > li > a {
-	color:#3023bf;
+	  color:#F0F0F0;
 	  padding-left:20px;
 	  padding-right:20px;
-	  border-left:1px solid #a66e00;
 }
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
 	color:#666666;
 }
-.navbar-nav > li:last-child > a {
-	  border-right:1px solid #a66e00;
-}
+
 .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
 	color: #ffffff;
 	background-color:transparent;
@@ -84,7 +90,7 @@ h3.highlight  {
 	color: #f0f0f0;
 	background-color:transparent;
 	  opacity:.9;
-	border-color:#ff3333;
+	border-color:#a66e00;
 }
 
 .nav .open > a {
@@ -132,6 +138,14 @@ h3.highlight  {
 body {
 padding-bottom: 40px;
 color: #5a5a5a;
+
+background-color: #CFC8F5;
+}
+
+.carousel-caption {
+	border-radius: 25px;
+
+	background-color:rgba(34, 33, 92, 0.72);
 }
 
 

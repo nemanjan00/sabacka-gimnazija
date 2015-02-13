@@ -66,7 +66,7 @@
 			 </div>
 		</header>
 
-		 <div class="container">
+		 <div class="sadrzaj container">
 			<div class="row">
 				<div id="myCarousel" class="col col-sm-12 carousel slide" data-ride="carousel">
 					<!-- Indicators -->
