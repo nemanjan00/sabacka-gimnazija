@@ -40,6 +40,7 @@ header {
 body {
   color:#828282;
   background-color:#e4e4e4;
+  padding-bottom: 40px;
 }
 
 a,a:hover {
@@ -135,12 +136,6 @@ h3.highlight  {
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
-padding-bottom: 40px;
-color: #5a5a5a;
-
-background-color: #CFC8F5;
-}
 
 .carousel-caption {
 	border-radius: 25px;
