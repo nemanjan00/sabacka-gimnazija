@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<base href="<?=htmlspecialchars(dirname($_SERVER["SCRIPT_NAME"]));?>/" />
+		<base href="<?=(htmlspecialchars(dirname($_SERVER["SCRIPT_NAME"])) == "/")?"":htmlspecialchars(dirname($_SERVER["SCRIPT_NAME"]));?>/" />
 
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
