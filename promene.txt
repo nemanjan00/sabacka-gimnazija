@@ -1,2 +1,1 @@
-- z-index na meniju
 - onhover na meniju
