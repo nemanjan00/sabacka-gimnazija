@@ -43,14 +43,13 @@
 
 header {
 	position: absolute;
-	z-index: 25;
-	left: 50%;
-	top:100px;
-}
+	margin: 0 auto;
 
-header img {
-	position: relative;
-	left: -50%;
+	left: 0;
+	right: 0;
+	top:100px;
+
+	z-index: 25;
 }
 
 /* Prostor ispod menija */
@@ -185,22 +184,21 @@ a,a:hover {
 		font-size: 21px;
 		line-height: 1.4;
 	}
-
-	/* Grb gimnazije */
-
-	header {
-		position: absolute;
-		left: 10% !important;
-	}
-
-	header img {
-		position: static !important;
-	}
 }
 
 /* Za mob */
 
 @media (max-width: 768px) {
+	/* Grb gimnazije */
+
+	header {
+		width: 141px;
+	}
+
+	header img {
+		position: relative;
+	}
+
 	.nav{
 		background-color: #572a84;
 	}
@@ -293,7 +291,7 @@ footer{
 }
 
 
-/*Pagination*/
+/* Pagination */
 
 .pagination > li > a{
 	font-size: 1.3em;
@@ -304,4 +302,25 @@ footer{
 
 .glavna{
 	width:100%;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	header {
+		width: 730px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	header {
+		width: 930px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	header {
+		width: 1100px;
+	}
 }

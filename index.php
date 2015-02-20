@@ -110,14 +110,8 @@
 			</div>
 		</nav><!-- /.navbar -->
 
-		<header class="masthead">
-			 <div class="container">
-				<div class="row">
-					 <div class="col col-sm-6">
-						<h1><img src="./img/logo.png"></h1>
-					 </div>
-				</div>
-			 </div>
+		<header>
+			<img src="./img/logo.png">
 		</header>
 
 		 <div class="sadrzaj container">
