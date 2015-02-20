@@ -15,7 +15,7 @@
 		<link href="css/styles.css" rel="stylesheet">
 	</head>
 	<body>
-		<nav class="navbar navbar-default navbar-fixed-top">
+		<nav class="navbar navbar-default">
 			<div class="container">
 				<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -171,31 +171,21 @@
 					</a>
 				</div><!-- /.carousel -->
 
-				 <div class="col col-sm-12">
+				 <!--<div class="col col-sm-12">
 					<div class="panel">
 						<div class="panel-body">
 							 You may want to put some news here <span class="glyphicon glyphicon-heart-empty"></span>
 						</div>
 					</div>
-			 </div>
+				</div>-->
 
 				<div class="col col-sm-12">
 					 <div class="panel">
-						 <h1>The Top Stories from Around</h1>
-						 <div class="row">
-							 <div class="col col-sm-8">
-								 <img src="http://s.bootply.com/assets/example/bg_iphone.png" class="img-responsive">
-							</div>
-							<div class="col col-sm-4">
-								 <img src="//placehold.it/400x180/FF3333/FFF" class="img-responsive">
-								 <h4>Aside</h4>
-								 <hr>
-								 <img src="//placehold.it/400x180/FF3333/FFF" class="img-responsive">
-								 <h4>Aside 2</h4>
-							 </div>
-						 </div>
+						<h1>Наслов</h1>
+						<p>Додато: 15.05.2014</p>
+						<img src="http://s.bootply.com/assets/example/bg_iphone.png" class="img-responsive">
 
-						 <h2>Content</h2>
+						<h2>Content</h2>
 						Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
 						dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores
 						eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
@@ -261,16 +251,11 @@
 						eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
 						sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
 						Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-
-
-						 <h1><a href="#"><i class="glyphicon glyphicon-user"></i> <i class="glyphicon glyphicon-chevron-down"></i></a></h1>
-
-						 <hr>
-						 <h4><a href="http://bootply.com/">Bootply</a></h4>
-						 <hr>
 					 </div>
 				 </div>
 			 </div>
+
+			<footer class="panel">&copy; Шабачка гимназија <?=date("Y");?></footer>
 		</div>
 
 		<!-- script references -->

@@ -56,7 +56,7 @@ header img {
 /* Prostor ispod menija */
 
 .sadrzaj{
-	margin-top:100px;
+	/*margin-top:100px;*/
 }
 
 /* Pozadina */
@@ -202,7 +202,6 @@ a,a:hover {
 
 @media (max-width: 768px) {
 	.nav{
-		z-index: 100;
 		background-color: #572a84;
 	}
 
@@ -221,7 +220,6 @@ a,a:hover {
 	}
 
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a{
-		z-index: 100;
 
 		color: #fff !important;
 
@@ -284,4 +282,12 @@ a,a:hover {
 	-webkit-border-radius: 6px 0 6px 6px;
 	-moz-border-radius: 6px 0 6px 6px;
 	border-radius: 6px 0 6px 6px;
+}
+
+
+/* Footer */
+
+footer{
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
