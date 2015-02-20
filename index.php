@@ -134,9 +134,9 @@
 							<img src="http://www.sabackagimnazija.edu.rs/images/skola_01.jpg" alt="First slide">
 							<div class="container">
 								<div class="carousel-caption">
-									<h1>Example headline.</h1>
+									<h1>Такмичење из програмирања</h1>
 									<p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-									<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+									<p><a class="btn btn-lg btn-primary" href="#" role="button">Прочитајте више... </a></p>
 								</div>
 							</div>
 						</div>
@@ -185,75 +185,155 @@
 						<p>Додато: 15.05.2014</p>
 						<img src="http://s.bootply.com/assets/example/bg_iphone.png" class="img-responsive">
 
-						<h2>Content</h2>
-						Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-						dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores
-						eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-						sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-						Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-
-						<h2>Content</h2>
-						Rrem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-						dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores
-						eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-						sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-						Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-						 <br><br>
-						<button class="btn btn-default">More</button>
-
-						<hr>
-
-						<h2>Content</h2>
-						<img src="//placehold.it/150x100/EEEEEE" class="img-responsive pull-right"> Farmhand ida quae ab illo inventore veritatis et quasi architecto beatae vitae
-						dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores
-						eos qui ratione voluptatem sequi nesciunt. I met him on the Internet. He's a French model. Qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-						sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-						Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+						<h2>Поднаслов</h2>
+						Тотам рем апериам, еаqуе ипса qуае аб илло инвенторе веритатис ет qуаси арчитецто беатае витае дицта сунт еxплицабо. Немо еним ипсам волуптатем qуиа волуптас сит аспернатур аут одит аут фугит, сед qуиа цор магни долорес еос qуи ратионе волуптатем сеqуи несциунт. Неqуе порро qуисqуам ест, qуи долорем ипсум qуиа долор сит амет, цонсецтетур, адиписци велит, сед qуиа нон нумqуам еиус моди темпора инцидунт ут лаборе ет долоре магнам алиqуам qуаерат волуптатем. Ут еним ад минима вениам, qуис нострум еxерцитатионем уллам цорпорис сусципит лабориосам, ниси ут алиqуид еx еа цоммоди цонсеqуатур?
 						<br><br>
-						<button class="btn btn-default">More</button>
 
-						<hr>
-
-						 <div class="row">
-							 <div class="col col-sm-6">
-								<img src="./img/bg_smartphones.jpg" class="img-responsive">
-							 </div>
-							 <div class="col col-sm-6">
-								<h1>There is still a lot to be said about the Responsive Web.</h1>
-							 </div>
-						</div>
-
-						<hr>
-
-						<h2>Responsive Text</h2>
-						Eeaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-						dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores
-						eos qui ratione voluptatem sequi nesciunt. Bootply is this awesomeness. Editor, prototype tool, adipisci velit,
-						sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-						Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-
-						<hr>
-
-						<h2>Responsive Images</h2>
-						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-						totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-						dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores
-						eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-						sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-						Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-
-						<hr>
-
-						<h2>Media Queries</h2>
-						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-						totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-						dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores
-						eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-						sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-						Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+						<button class="btn btn-lg btn-primary">Прочитајте више...</button>
+						<br><br>
 					 </div>
 				 </div>
+
+				<div class="col col-sm-12">
+					<div class="panel">
+						<h1>Наслов</h1>
+						<p>Додато: 15.05.2014</p>
+						<img src="http://s.bootply.com/assets/example/bg_iphone.png" class="img-responsive">
+
+						<h2>Поднаслов</h2>
+						Тотам рем апериам, еаqуе ипса qуае аб илло инвенторе веритатис ет qуаси арчитецто беатае витае дицта сунт еxплицабо. Немо еним ипсам волуптатем qуиа волуптас сит аспернатур аут одит аут фугит, сед qуиа цор магни долорес еос qуи ратионе волуптатем сеqуи несциунт. Неqуе порро qуисqуам ест, qуи долорем ипсум qуиа долор сит амет, цонсецтетур, адиписци велит, сед qуиа нон нумqуам еиус моди темпора инцидунт ут лаборе ет долоре магнам алиqуам qуаерат волуптатем. Ут еним ад минима вениам, qуис нострум еxерцитатионем уллам цорпорис сусципит лабориосам, ниси ут алиqуид еx еа цоммоди цонсеqуатур?
+						<br><br>
+
+						<button class="btn btn-lg btn-primary">Прочитајте више...</button>
+						<br><br>
+					</div>
+				</div>
+
+				<div class="col col-sm-12">
+					<div class="panel">
+						<h1>Наслов</h1>
+						<p>Додато: 15.05.2014</p>
+						<img src="http://s.bootply.com/assets/example/bg_iphone.png" class="img-responsive">
+
+						<h2>Поднаслов</h2>
+						Тотам рем апериам, еаqуе ипса qуае аб илло инвенторе веритатис ет qуаси арчитецто беатае витае дицта сунт еxплицабо. Немо еним ипсам волуптатем qуиа волуптас сит аспернатур аут одит аут фугит, сед qуиа цор магни долорес еос qуи ратионе волуптатем сеqуи несциунт. Неqуе порро qуисqуам ест, qуи долорем ипсум qуиа долор сит амет, цонсецтетур, адиписци велит, сед qуиа нон нумqуам еиус моди темпора инцидунт ут лаборе ет долоре магнам алиqуам qуаерат волуптатем. Ут еним ад минима вениам, qуис нострум еxерцитатионем уллам цорпорис сусципит лабориосам, ниси ут алиqуид еx еа цоммоди цонсеqуатур?
+						<br><br>
+
+						<button class="btn btn-lg btn-primary">Прочитајте више...</button>
+						<br><br>
+					</div>
+				</div>
+
+				<div class="col col-sm-12">
+					<div class="panel">
+						<h1>Наслов</h1>
+						<p>Додато: 15.05.2014</p>
+						<img src="http://s.bootply.com/assets/example/bg_iphone.png" class="img-responsive">
+
+						<h2>Поднаслов</h2>
+						Тотам рем апериам, еаqуе ипса qуае аб илло инвенторе веритатис ет qуаси арчитецто беатае витае дицта сунт еxплицабо. Немо еним ипсам волуптатем qуиа волуптас сит аспернатур аут одит аут фугит, сед qуиа цор магни долорес еос qуи ратионе волуптатем сеqуи несциунт. Неqуе порро qуисqуам ест, qуи долорем ипсум qуиа долор сит амет, цонсецтетур, адиписци велит, сед qуиа нон нумqуам еиус моди темпора инцидунт ут лаборе ет долоре магнам алиqуам qуаерат волуптатем. Ут еним ад минима вениам, qуис нострум еxерцитатионем уллам цорпорис сусципит лабориосам, ниси ут алиqуид еx еа цоммоди цонсеqуатур?
+						<br><br>
+
+						<button class="btn btn-lg btn-primary">Прочитајте више...</button>
+						<br><br>
+					</div>
+				</div>
+
+				<div class="col col-sm-12">
+					<div class="panel">
+						<h1>Наслов</h1>
+						<p>Додато: 15.05.2014</p>
+						<img src="http://s.bootply.com/assets/example/bg_iphone.png" class="img-responsive">
+
+						<h2>Поднаслов</h2>
+						Тотам рем апериам, еаqуе ипса qуае аб илло инвенторе веритатис ет qуаси арчитецто беатае витае дицта сунт еxплицабо. Немо еним ипсам волуптатем qуиа волуптас сит аспернатур аут одит аут фугит, сед qуиа цор магни долорес еос qуи ратионе волуптатем сеqуи несциунт. Неqуе порро qуисqуам ест, qуи долорем ипсум qуиа долор сит амет, цонсецтетур, адиписци велит, сед qуиа нон нумqуам еиус моди темпора инцидунт ут лаборе ет долоре магнам алиqуам qуаерат волуптатем. Ут еним ад минима вениам, qуис нострум еxерцитатионем уллам цорпорис сусципит лабориосам, ниси ут алиqуид еx еа цоммоди цонсеqуатур?
+						<br><br>
+
+						<button class="btn btn-lg btn-primary">Прочитајте више...</button>
+						<br><br>
+					</div>
+				</div>
+
+				<div class="col col-sm-12">
+					<div class="panel">
+						<h1>Наслов</h1>
+						<p>Додато: 15.05.2014</p>
+						<img src="http://s.bootply.com/assets/example/bg_iphone.png" class="img-responsive">
+
+						<h2>Поднаслов</h2>
+						Тотам рем апериам, еаqуе ипса qуае аб илло инвенторе веритатис ет qуаси арчитецто беатае витае дицта сунт еxплицабо. Немо еним ипсам волуптатем qуиа волуптас сит аспернатур аут одит аут фугит, сед qуиа цор магни долорес еос qуи ратионе волуптатем сеqуи несциунт. Неqуе порро qуисqуам ест, qуи долорем ипсум qуиа долор сит амет, цонсецтетур, адиписци велит, сед qуиа нон нумqуам еиус моди темпора инцидунт ут лаборе ет долоре магнам алиqуам qуаерат волуптатем. Ут еним ад минима вениам, qуис нострум еxерцитатионем уллам цорпорис сусципит лабориосам, ниси ут алиqуид еx еа цоммоди цонсеqуатур?
+						<br><br>
+
+						<button class="btn btn-lg btn-primary">Прочитајте више...</button>
+						<br><br>
+					</div>
+				</div>
+
+				<div class="col col-sm-12">
+					<div class="panel">
+						<h1>Наслов</h1>
+						<p>Додато: 15.05.2014</p>
+						<img src="http://s.bootply.com/assets/example/bg_iphone.png" class="img-responsive">
+
+						<h2>Поднаслов</h2>
+						Тотам рем апериам, еаqуе ипса qуае аб илло инвенторе веритатис ет qуаси арчитецто беатае витае дицта сунт еxплицабо. Немо еним ипсам волуптатем qуиа волуптас сит аспернатур аут одит аут фугит, сед qуиа цор магни долорес еос qуи ратионе волуптатем сеqуи несциунт. Неqуе порро qуисqуам ест, qуи долорем ипсум qуиа долор сит амет, цонсецтетур, адиписци велит, сед qуиа нон нумqуам еиус моди темпора инцидунт ут лаборе ет долоре магнам алиqуам qуаерат волуптатем. Ут еним ад минима вениам, qуис нострум еxерцитатионем уллам цорпорис сусципит лабориосам, ниси ут алиqуид еx еа цоммоди цонсеqуатур?
+						<br><br>
+
+						<button class="btn btn-lg btn-primary">Прочитајте више...</button>
+						<br><br>
+					</div>
+				</div>
+
+				<div class="col col-sm-12">
+					<div class="panel">
+						<h1>Наслов</h1>
+						<p>Додато: 15.05.2014</p>
+						<img src="http://s.bootply.com/assets/example/bg_iphone.png" class="img-responsive">
+
+						<h2>Поднаслов</h2>
+						Тотам рем апериам, еаqуе ипса qуае аб илло инвенторе веритатис ет qуаси арчитецто беатае витае дицта сунт еxплицабо. Немо еним ипсам волуптатем qуиа волуптас сит аспернатур аут одит аут фугит, сед qуиа цор магни долорес еос qуи ратионе волуптатем сеqуи несциунт. Неqуе порро qуисqуам ест, qуи долорем ипсум qуиа долор сит амет, цонсецтетур, адиписци велит, сед qуиа нон нумqуам еиус моди темпора инцидунт ут лаборе ет долоре магнам алиqуам qуаерат волуптатем. Ут еним ад минима вениам, qуис нострум еxерцитатионем уллам цорпорис сусципит лабориосам, ниси ут алиqуид еx еа цоммоди цонсеqуатур?
+						<br><br>
+
+						<button class="btn btn-lg btn-primary">Прочитајте више...</button>
+						<br><br>
+					</div>
+				</div>
+
+				<div class="col col-sm-12">
+					<div class="panel">
+						<h1>Наслов</h1>
+						<p>Додато: 15.05.2014</p>
+						<img src="http://s.bootply.com/assets/example/bg_iphone.png" class="img-responsive">
+
+						<h2>Поднаслов</h2>
+						Тотам рем апериам, еаqуе ипса qуае аб илло инвенторе веритатис ет qуаси арчитецто беатае витае дицта сунт еxплицабо. Немо еним ипсам волуптатем qуиа волуптас сит аспернатур аут одит аут фугит, сед qуиа цор магни долорес еос qуи ратионе волуптатем сеqуи несциунт. Неqуе порро qуисqуам ест, qуи долорем ипсум qуиа долор сит амет, цонсецтетур, адиписци велит, сед qуиа нон нумqуам еиус моди темпора инцидунт ут лаборе ет долоре магнам алиqуам qуаерат волуптатем. Ут еним ад минима вениам, qуис нострум еxерцитатионем уллам цорпорис сусципит лабориосам, ниси ут алиqуид еx еа цоммоди цонсеqуатур?
+						<br><br>
+
+						<button class="btn btn-lg btn-primary">Прочитајте више...</button>
+						<br><br>
+					</div>
+				</div>
 			 </div>
+
+			<nav>
+				<ul class="pagination">
+					<li>
+						<a href="#" aria-label="Previous">
+							<span aria-hidden="true">&laquo;</span>
+						</a>
+						</li>
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li>
+						<a href="#" aria-label="Next">
+							<span aria-hidden="true">&raquo;</span>
+						</a>
+						</li>
+					</ul>
+				</nav>
 
 			<footer class="panel">&copy; Шабачка гимназија <?=date("Y");?></footer>
 		</div>

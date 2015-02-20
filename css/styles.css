@@ -291,3 +291,10 @@ footer{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+
+/*Pagination*/
+
+.pagination > li > a{
+	font-size: 1.3em;
+}
