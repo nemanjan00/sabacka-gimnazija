@@ -28,7 +28,7 @@
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
 
-						<li class="dropdown nav">
+						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">О школи <i class="glyphicon glyphicon-chevron-down"></i></a>
 
 							<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
@@ -37,7 +37,7 @@
 							</ul>
 						</li>
 
-						<li class="dropdown nav">
+						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ученици <i class="glyphicon glyphicon-chevron-down"></i></a>
 
 							<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
@@ -84,7 +84,7 @@
 
 					</ul>
 					<ul class="nav navbar-right navbar-nav desni">
-						<li class="dropdown">
+						<li class="dropdown nav">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-search"></i> <i class="glyphicon glyphicon-chevron-down"></i></a>
 							<ul class="dropdown-menu" style="padding:12px;">
 								<div class="input-group">
@@ -95,9 +95,9 @@
 								</div><!-- /input-group -->
 							</ul>
 						</li>
-						 <li class="dropdown">
+						 <li class="dropdown nav">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i> <i class="glyphicon glyphicon-chevron-down"></i></a>
-							<ul class="dropdown-menu">
+							<ul class="dropdown-menu nav">
 								<li><a href="#">Login</a></li>
 								<li><a href="#">Profile</a></li>
 								<li class="divider"></li>
