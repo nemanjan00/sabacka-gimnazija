@@ -125,7 +125,7 @@
 					</ol>
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
-							<img src="http://res.cloudinary.com/nemanjan00/image/upload/v1424803852/gimnazija/skola_01.jpg" alt="First slide">
+							<img src="//res.cloudinary.com/nemanjan00/image/upload/v1424803852/gimnazija/skola_01.jpg" alt="First slide">
 							<div class="container">
 								<div class="carousel-caption">
 									<h1>Такмичење из програмирања</h1>
@@ -135,7 +135,7 @@
 							</div>
 						</div>
 						<div class="item">
-							<img src="http://res.cloudinary.com/nemanjan00/image/upload/v1424803851/gimnazija/skola_02.jpg" alt="Second slide">
+							<img src="//res.cloudinary.com/nemanjan00/image/upload/v1424803851/gimnazija/skola_02.jpg" alt="Second slide">
 							<div class="container">
 								<div class="carousel-caption">
 									<h1>Another example headline.</h1>
@@ -145,7 +145,7 @@
 							</div>
 						</div>
 						<div class="item">
-							<img src="http://res.cloudinary.com/nemanjan00/image/upload/v1424803852/gimnazija/skola_14.jpg" alt="Third slide">
+							<img src="//res.cloudinary.com/nemanjan00/image/upload/v1424803852/gimnazija/skola_14.jpg" alt="Third slide">
 							<div class="container">
 								<div class="carousel-caption">
 									<h1>One more for good measure.</h1>
@@ -178,7 +178,7 @@
 						<h1>Наслов</h1>
 						<p>Додато: 15.05.2014</p>
 
-						<img src="http://res.cloudinary.com/nemanjan00/image/upload/v1424803852/gimnazija/skola_01.jpg" class="glavna">
+						<img src="//res.cloudinary.com/nemanjan00/image/upload/v1424803852/gimnazija/skola_01.jpg" class="glavna">
 
 						<h2>Поднаслов</h2>
 						Тотам рем апериам, еаqуе ипса qуае аб илло инвенторе веритатис ет qуаси арчитецто беатае витае дицта сунт еxплицабо. Немо еним ипсам волуптатем qуиа волуптас сит аспернатур аут одит аут фугит, сед qуиа цор магни долорес еос qуи ратионе волуптатем сеqуи несциунт. Неqуе порро qуисqуам ест, qуи долорем ипсум qуиа долор сит амет, цонсецтетур, адиписци велит, сед qуиа нон нумqуам еиус моди темпора инцидунт ут лаборе ет долоре магнам алиqуам qуаерат волуптатем. Ут еним ад минима вениам, qуис нострум еxерцитатионем уллам цорпорис сусципит лабориосам, ниси ут алиqуид еx еа цоммоди цонсеqуатур?
