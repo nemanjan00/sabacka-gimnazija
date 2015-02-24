@@ -11,7 +11,7 @@
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<link href="//cdn.rawgit.com/nemanjan00/sabacka-gimnazija/ba208242973ad33bb587380a2a1b5f68cfe1dea0/css/styles.css" rel="stylesheet">
+		<link href="//sabackagimnazija.na1424817126.netdna-cdn.com/css/styles.css" rel="stylesheet">
 	</head>
 	<body>
 		<nav class="navbar navbar-default">
@@ -110,7 +110,7 @@
 		</nav><!-- /.navbar -->
 
 		<header>
-			<img src="//res.cloudinary.com/nemanjan00/image/upload/v1424806894/gimnazija/logo.png">
+			<img src="//sabackagimnazija.na1424817126.netdna-cdn.com/img/logo.png">
 		</header>
 
 		 <div class="sadrzaj container">
@@ -124,7 +124,7 @@
 					</ol>
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
-							<img src="//res.cloudinary.com/nemanjan00/image/upload/v1424803852/gimnazija/skola_01.jpg" alt="First slide">
+							<img src="//sabackagimnazija.na1424817126.netdna-cdn.com/img/skola_01.jpg" alt="First slide">
 							<div class="container">
 								<div class="carousel-caption">
 									<h1>Такмичење из програмирања</h1>
@@ -134,7 +134,7 @@
 							</div>
 						</div>
 						<div class="item">
-							<img src="//res.cloudinary.com/nemanjan00/image/upload/v1424803851/gimnazija/skola_02.jpg" alt="Second slide">
+							<img src="//sabackagimnazija.na1424817126.netdna-cdn.com/img/skola_02.jpg" alt="Second slide">
 							<div class="container">
 								<div class="carousel-caption">
 									<h1>Another example headline.</h1>
@@ -144,7 +144,7 @@
 							</div>
 						</div>
 						<div class="item">
-							<img src="//res.cloudinary.com/nemanjan00/image/upload/v1424803852/gimnazija/skola_14.jpg" alt="Third slide">
+							<img src="//sabackagimnazija.na1424817126.netdna-cdn.com/img/skola_14.jpg" alt="Third slide">
 							<div class="container">
 								<div class="carousel-caption">
 									<h1>One more for good measure.</h1>
@@ -177,7 +177,7 @@
 						<h1>Наслов</h1>
 						<p>Додато: 15.05.2014</p>
 
-						<img src="//res.cloudinary.com/nemanjan00/image/upload/v1424803852/gimnazija/skola_01.jpg" class="glavna">
+						<img src="//sabackagimnazija.na1424817126.netdna-cdn.com/img/skola_01.jpg" class="glavna">
 
 						<h2>Поднаслов</h2>
 						Тотам рем апериам, еаqуе ипса qуае аб илло инвенторе веритатис ет qуаси арчитецто беатае витае дицта сунт еxплицабо. Немо еним ипсам волуптатем qуиа волуптас сит аспернатур аут одит аут фугит, сед qуиа цор магни долорес еос qуи ратионе волуптатем сеqуи несциунт. Неqуе порро qуисqуам ест, qуи долорем ипсум qуиа долор сит амет, цонсецтетур, адиписци велит, сед qуиа нон нумqуам еиус моди темпора инцидунт ут лаборе ет долоре магнам алиqуам qуаерат волуптатем. Ут еним ад минима вениам, qуис нострум еxерцитатионем уллам цорпорис сусципит лабориосам, ниси ут алиqуид еx еа цоммоди цонсеqуатур?
