@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" manifest="./page.appcache">
+<html lang="en">
 	<head>
 		<base href="<?=(htmlspecialchars(dirname($_SERVER["SCRIPT_NAME"])) == "/")?"":htmlspecialchars(dirname($_SERVER["SCRIPT_NAME"]));?>/" />
 
