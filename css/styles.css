@@ -196,11 +196,7 @@ a,a:hover {
 	/* Grb gimnazije */
 
 	header {
-		width: 141px;
-	}
-
-	header img {
-		position: relative;
+		display:none;
 	}
 
 	.nav{
