@@ -11,7 +11,7 @@
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<link href="//cdn.rawgit.com/nemanjan00/sabacka-gimnazija/f2ce6616bf06284a087ef401015039c178880f88/css/styles.css" rel="stylesheet">
+		<link href="//cdn.rawgit.com/nemanjan00/sabacka-gimnazija/ba208242973ad33bb587380a2a1b5f68cfe1dea0/css/styles.css" rel="stylesheet">
 	</head>
 	<body>
 		<nav class="navbar navbar-default">
