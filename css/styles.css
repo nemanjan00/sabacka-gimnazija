@@ -305,6 +305,7 @@ footer{
 }
 
 /* Small devices (tablets, 768px and up) */
+
 @media (min-width: 768px) {
 	header {
 		width: 730px;
