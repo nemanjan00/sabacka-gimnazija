@@ -12,7 +12,7 @@
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<link href="css/styles.css" rel="stylesheet">
+		<link href="//cdn.rawgit.com/nemanjan00/sabacka-gimnazija/master/css/styles.css" rel="stylesheet">
 	</head>
 	<body>
 		<nav class="navbar navbar-default">
