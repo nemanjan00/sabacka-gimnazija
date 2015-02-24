@@ -6,7 +6,6 @@
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
 		<title>Шабачка гимназија</title>
-		<meta name="generator" content="Bootply" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
 		<!--[if lt IE 9]>
@@ -75,7 +74,7 @@
 						</li>
 
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ученици <i class="glyphicon glyphicon-chevron-down"></i></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Контакт <i class="glyphicon glyphicon-chevron-down"></i></a>
 
 							<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
 								<li><a href="#">Бивши ученици</a></li>
@@ -188,9 +187,6 @@
 						<br><br>
 					 </div>
 				 </div>
-
-
-
 			 </div>
 
 			<nav>
