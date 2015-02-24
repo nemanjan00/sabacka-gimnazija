@@ -111,7 +111,7 @@
 		</nav><!-- /.navbar -->
 
 		<header>
-			<img src="./img/logo.png">
+			<img src="//res.cloudinary.com/nemanjan00/image/upload/v1424806894/gimnazija/logo.png">
 		</header>
 
 		 <div class="sadrzaj container">
