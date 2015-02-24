@@ -3,8 +3,3 @@ CACHE MANIFEST
 CACHE:
 
 /css/styles.css
-
-http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js
-http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js
-
-http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css
