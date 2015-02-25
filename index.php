@@ -218,7 +218,7 @@ include("./include/resources.class.php");
 
 		<!-- script references -->
 		<script async src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-		<script async src="<?=$resources->getStaticResource("js/bootstrap.min.js");?>"></script>
+		<script async src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 		<script>
 			/*!
@@ -265,7 +265,7 @@ include("./include/resources.class.php");
 				return ss;
 			}
 
-			loadCSS("<?=$resources->getStaticResource("css/bootstrap.min.css");?>");
+			loadCSS("//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css");
 			loadCSS("<?=$resources->getStaticResource("css/styles.css");?>");
 		</script>
 	</body>
