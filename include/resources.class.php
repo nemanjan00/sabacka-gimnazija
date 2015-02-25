@@ -10,6 +10,10 @@ class resources{
 	public function getStaticResource($name){
 		return $this->config->readValue("pullzone").$name;
 	}
+
+	public function getDynamicResource($name){
+		return $this->config->readValue("pushzone").$name;
+	}
 }
 
 $resources = new resources();
