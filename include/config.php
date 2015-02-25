@@ -3,8 +3,8 @@ class config{
 	private $config = Array();
 
 	public function __construct(){
-		$this->config["pullzone"] = "//cdn.sabackagimnazija.edu.rs/";
-		$this->config["pushzone"] = "//cdn.sabackagimnazija.edu.rs/img/";
+		$this->config["pullzone"] = "//sabackagimnazija.na1424817126.netdna-cdn.com/";
+		$this->config["pushzone"] = "//cloudinary.na1424817126.netdna-cdn.com/";
 	}
 
 	public function readValue($name){
