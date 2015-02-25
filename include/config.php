@@ -4,7 +4,7 @@ class config{
 
 	public function __construct(){
 		$this->config["pullzone"] = "//cdn.sabackagimnazija.edu.rs/";
-		$this->config["pushzone"] = "//cloudinary.na1424817126.netdna-cdn.com/";
+		$this->config["pushzone"] = "//cdn.sabackagimnazija.edu.rs/img";
 	}
 
 	public function readValue($name){
