@@ -1,5 +1,6 @@
 <?php
 include("./include/config.php");
+include("./include/resources.class.php");
 ?>
 <!DOCTYPE html>
 <html lang="en" manifest="./page.appcache">
@@ -10,11 +11,12 @@ include("./include/config.php");
 		<meta charset="utf-8">
 		<title>Шабачка гимназија</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="Pragma" content="no-cache">
 		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<link href="<?=$pullzone;?>css/styles.css" rel="stylesheet">
+		<link href="<?=$resources->getStaticResource("css/styles.css");?>" rel="stylesheet">
 	</head>
 	<body>
 		<nav class="navbar navbar-default">
@@ -113,7 +115,7 @@ include("./include/config.php");
 		</nav><!-- /.navbar -->
 
 		<header>
-			<img src="<?=$pullzone;?>img/logo.png">
+			<img src="<?=$resources->getStaticResource("img/logo.png");?>">
 		</header>
 
 		 <div class="sadrzaj container">
@@ -127,7 +129,7 @@ include("./include/config.php");
 					</ol>
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
-							<img src="<?=$pullzone;?>img/skola_01.jpg" alt="First slide">
+							<img src="<?=$resources->getStaticResource("img/skola_01.jpg");?>" alt="First slide">
 							<div class="container">
 								<div class="carousel-caption">
 									<h1>Такмичење из програмирања</h1>
@@ -137,7 +139,7 @@ include("./include/config.php");
 							</div>
 						</div>
 						<div class="item">
-							<img src="<?=$pullzone;?>img/skola_02.jpg" alt="Second slide">
+							<img src="<?=$resources->getStaticResource("img/skola_02.jpg");?>" alt="Second slide">
 							<div class="container">
 								<div class="carousel-caption">
 									<h1>Another example headline.</h1>
@@ -147,7 +149,7 @@ include("./include/config.php");
 							</div>
 						</div>
 						<div class="item">
-							<img src="<?=$pullzone;?>img/skola_14.jpg" alt="Third slide">
+							<img src="<?=$resources->getStaticResource("img/skola_14.jpg");?>" alt="Third slide">
 							<div class="container">
 								<div class="carousel-caption">
 									<h1>One more for good measure.</h1>
@@ -180,7 +182,7 @@ include("./include/config.php");
 						<h1>Наслов</h1>
 						<p>Додато: 15.05.2014</p>
 
-						<img src="<?=$pullzone;?>img/skola_01.jpg" class="glavna">
+						<img src="<?=$resources->getStaticResource("img/skola_01.jpg");?>" class="glavna">
 
 						<h2>Поднаслов</h2>
 						Тотам рем апериам, еаqуе ипса qуае аб илло инвенторе веритатис ет qуаси арчитецто беатае витае дицта сунт еxплицабо. Немо еним ипсам волуптатем qуиа волуптас сит аспернатур аут одит аут фугит, сед qуиа цор магни долорес еос qуи ратионе волуптатем сеqуи несциунт. Неqуе порро qуисqуам ест, qуи долорем ипсум qуиа долор сит амет, цонсецтетур, адиписци велит, сед qуиа нон нумqуам еиус моди темпора инцидунт ут лаборе ет долоре магнам алиqуам qуаерат волуптатем. Ут еним ад минима вениам, qуис нострум еxерцитатионем уллам цорпорис сусципит лабориосам, ниси ут алиqуид еx еа цоммоди цонсеqуатур?
