@@ -53,7 +53,8 @@ include("./include/resources.class.php");
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ученички парламент</a>
 									<ul class="dropdown-menu">
 										<li>
-											<a href="#">Link 3</a>
+											<a href="#">Обавештења</a>
+											<a href="#">Чланови</a>
 										</li>
 									</ul>
 								</li>
@@ -64,8 +65,27 @@ include("./include/resources.class.php");
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Настава <i class="glyphicon glyphicon-chevron-down"></i></a>
 
 							<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-								<li><a href="#">Бивши ученици</a></li>
-								<li><a href="#">Такмичења</a></li>
+								<li class="menu-item dropdown dropdown-submenu">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Редовна</a>
+									<ul class="dropdown-menu">
+										<li class="menu-item dropdown dropdown-submenu">
+											<a href="#" class="dropdown-toggle" data-toggle="dropdown">Предмет</a>
+											<ul class="dropdown-menu">
+												<li>
+													<a href="#">Професор</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item dropdown dropdown-submenu">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Секције</a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">Филмска</a>
+										</li>
+									</ul>
+								</li>
 							</ul>
 						</li>
 
@@ -73,8 +93,13 @@ include("./include/resources.class.php");
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Колектив <i class="glyphicon glyphicon-chevron-down"></i></a>
 
 							<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-								<li><a href="#">Бивши ученици</a></li>
-								<li><a href="#">Такмичења</a></li>
+								<li><a href="#">Директор</a></li>
+								<li><a href="#">Стручна служба</a></li>
+								<li><a href="#">Професори</a></li>
+								<li><a href="#">Секретаријат</a></li>
+								<li><a href="#">Помоћно особље</a></li>
+								<li><a href="#">Школски одбор</a></li>
+								<li><a href="#">Савет родитеља</a></li>
 							</ul>
 						</li>
 
@@ -227,8 +252,10 @@ include("./include/resources.class.php");
 		</div>
 
 		<!-- script references -->
-		<script async src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script  src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 		<script async src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+		<script async src="<?=$resources->getStaticResource("js/scripts.js");?>"></script>
 
 		<script>
 			/*!
