@@ -4,7 +4,7 @@ class config{
 
 	public function __construct(){
 		$this->config["pullzone"] = "https://gimnazija-113b.kxcdn.com/";
-		$this->config["pullzone"] = "/";
+		//$this->config["pullzone"] = "/";
 		$this->config["pushzone"] = "https://cloudinary-113b.kxcdn.com/";
 	}
 
