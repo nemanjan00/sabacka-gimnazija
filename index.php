@@ -127,8 +127,20 @@ include("./include/resources.class.php");
 						</li>
 						 <li class="dropdown nav">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i> <i class="glyphicon glyphicon-chevron-down"></i></a>
-							<ul class="dropdown-menu nav">
-								<li><a href="/admin/login.php">Login</a></li>
+							<ul class="dropdown-menu" style="padding:12px;">
+								<form method="POST" action="./admin">
+									<div class="input-group">
+										<span class="input-group-addon" id="basic-addon2"><i class="glyphicon glyphicon-user"></i></span>
+										<input type="text" class="form-control" placeholder="Корисничко име...">
+									</div><!-- /input-group -->
+									<br>
+									<div class="input-group">
+										<span class="input-group-addon" id="basic-addon2"><i class="glyphicon glyphicon-asterisk"></i></span>
+										<input type="password" class="form-control" placeholder="Шифра...">
+									</div><!-- /input-group -->
+									<br>
+									<button class="btn btn-primary btn-block" type="submit">Пријави се</button>
+								</form>
 							</ul>
 						</li>
 					</ul>
