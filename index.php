@@ -312,7 +312,7 @@ include("./include/resources.class.php");
 			loadCSS("<?=$resources->getStaticResource("css/styles.css");?>");
 
 			$(function () {
-				$(".youtube").YouTubeModal({autoplay:0});
+				$(".youtube").YouTubeModal({autoplay:1});
 			});
 		</script>
 
