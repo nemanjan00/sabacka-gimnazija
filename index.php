@@ -128,7 +128,7 @@ include("./include/resources.class.php");
 						 <li class="dropdown nav">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i> <i class="glyphicon glyphicon-chevron-down"></i></a>
 							<ul class="dropdown-menu" style="padding:12px;">
-								<form method="POST" action="./admin/login.php">
+								<form method="POST" action="./admin">
 									<div class="input-group">
 										<span class="input-group-addon" id="basic-addon2"><i class="glyphicon glyphicon-user"></i></span>
 										<input type="text" class="form-control" placeholder="Корисничко име...">
@@ -261,7 +261,7 @@ include("./include/resources.class.php");
 
 		<script async src="<?=$resources->getStaticResource("js/scripts.js");?>"></script>
 
-		<script src="https://cdn.rawgit.com/abhinayrathore/Bootstrap-Youtube-Popup-Player-Plugin/master/bootstrap.youtubepopup.js"></script>
+		<script async src="//cdn.rawgit.com/abhinayrathore/Bootstrap-Youtube-Popup-Player-Plugin/master/bootstrap.youtubepopup.js"></script>
 
 		<script>
 			/*!
