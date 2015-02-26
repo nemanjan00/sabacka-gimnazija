@@ -110,14 +110,7 @@ include("./include/resources.class.php");
 							</ul>
 						</li>
 
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Контакт <i class="glyphicon glyphicon-chevron-down"></i></a>
-
-							<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-								<li><a href="#">Бивши ученици</a></li>
-								<li><a href="#">Такмичења</a></li>
-							</ul>
-						</li>
+						<li><a href="#">Контакт</a></li>
 
 					</ul>
 					<ul class="nav navbar-right navbar-nav desni">
