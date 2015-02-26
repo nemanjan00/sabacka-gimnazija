@@ -128,7 +128,7 @@ include("./include/resources.class.php");
 						 <li class="dropdown nav">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i> <i class="glyphicon glyphicon-chevron-down"></i></a>
 							<ul class="dropdown-menu" style="padding:12px;">
-								<form method="POST" action="./admin">
+								<form method="POST" action="./admin/login.php">
 									<div class="input-group">
 										<span class="input-group-addon" id="basic-addon2"><i class="glyphicon glyphicon-user"></i></span>
 										<input type="text" class="form-control" placeholder="Корисничко име...">
@@ -166,9 +166,13 @@ include("./include/resources.class.php");
 							<img src="<?=$resources->getDynamicResource("gimnazija/skola_01.jpg");?>" alt="First slide">
 							<div class="container">
 								<div class="carousel-caption">
-									<h1>Такмичење из програмирања</h1>
-									<p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-									<p><a class="btn btn-lg btn-primary" href="#" role="button">Прочитајте више... </a></p>
+									<h1>Добродошли</h1>
+									<p>Контакт:<br>
+										sabackagimnazija@gmail.com<br>
+										sabackagimnazia@ptt.rs<br>
+										тел:015 350286<br>
+										Директор: 015 360570</p>
+									<p><a class="btn btn-lg btn-primary youtube" href="http://www.youtube.com/watch?v=drknOAAANwo" role="button">Погледајте видео... </a></p>
 								</div>
 							</div>
 						</div>
@@ -252,10 +256,12 @@ include("./include/resources.class.php");
 		</div>
 
 		<!-- script references -->
-		<script  src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 		<script async src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 		<script async src="<?=$resources->getStaticResource("js/scripts.js");?>"></script>
+
+		<script src="https://cdn.rawgit.com/abhinayrathore/Bootstrap-Youtube-Popup-Player-Plugin/master/bootstrap.youtubepopup.js"></script>
 
 		<script>
 			/*!
@@ -304,6 +310,11 @@ include("./include/resources.class.php");
 
 			loadCSS("//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css");
 			loadCSS("<?=$resources->getStaticResource("css/styles.css");?>");
+
+			$(function () {
+				$(".youtube").YouTubeModal({autoplay:0});
+			});
 		</script>
+
 	</body>
 </html>
