@@ -118,6 +118,10 @@ a,a:hover {
 
 /* Ime u meniju */
 
+.navbar-brand:hover, .navbar-brand:visited {
+	color:#FFF !important;
+}
+
 .navbar-default .navbar-brand {
 	color: #ffffff;
 }

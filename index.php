@@ -41,8 +41,6 @@ include("./include/resources.class.php");
 							</ul>
 						</li>
 
-
-
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ученици <i class="glyphicon glyphicon-chevron-down"></i></a>
 
