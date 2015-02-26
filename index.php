@@ -41,12 +41,22 @@ include("./include/resources.class.php");
 							</ul>
 						</li>
 
+
+
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ученици <i class="glyphicon glyphicon-chevron-down"></i></a>
 
 							<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
 								<li><a href="#">Бивши ученици</a></li>
-								<li><a href="#">Такмичења</a></li>
+								<li class="menu-item"><a href="#">Такмичења</a></li>
+								<li class="menu-item dropdown dropdown-submenu">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ученички парламент</a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">Link 3</a>
+										</li>
+									</ul>
+								</li>
 							</ul>
 						</li>
 
