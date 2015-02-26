@@ -135,10 +135,7 @@ include("./include/resources.class.php");
 						 <li class="dropdown nav">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i> <i class="glyphicon glyphicon-chevron-down"></i></a>
 							<ul class="dropdown-menu nav">
-								<li><a href="#">Login</a></li>
-								<li><a href="#">Profile</a></li>
-								<li class="divider"></li>
-								<li><a href="#">About</a></li>
+								<li><a href="/admin/login.php">Login</a></li>
 							</ul>
 						</li>
 					</ul>
