@@ -922,21 +922,21 @@ include("../include/resources.class.php");
 		<!-- /#wrapper -->
 
 		<!-- jQuery -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script async src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 
 		<!-- Bootstrap Core JavaScript -->
-		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+		<script async src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 		<!-- Metis Menu Plugin JavaScript -->
-		<script src="<?=$resources->getStaticResource("admin/js/metisMenu.min.js");?>"></script>
+		<script async src="<?=$resources->getStaticResource("admin/js/metisMenu.min.js");?>"></script>
 
 		<!-- Morris Charts JavaScript -->
-		<script src="<?=$resources->getStaticResource("admin/js/raphael-min.js");?>"></script>
-		<script src="<?=$resources->getStaticResource("admin/js/morris.min.js");?>"></script>
-		<script src="<?=$resources->getStaticResource("admin/js/morris-data.js");?>"></script>
+		<script async src="<?=$resources->getStaticResource("admin/js/raphael-min.js");?>"></script>
+		<script async src="<?=$resources->getStaticResource("admin/js/morris.min.js");?>"></script>
+		<script async src="<?=$resources->getStaticResource("admin/js/morris-data.js");?>"></script>
 
 		<!-- Custom Theme JavaScript -->
-		<script src="<?=$resources->getStaticResource("admin/js/sb-admin-2.js");?>"></script>
+		<script async src="<?=$resources->getStaticResource("admin/js/sb-admin-2.js");?>"></script>
 
 	</body>
 </html>
