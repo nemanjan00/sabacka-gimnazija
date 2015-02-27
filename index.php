@@ -261,7 +261,7 @@ include("./include/resources.class.php");
 
 		<script async src="<?=$resources->getStaticResource("js/scripts.js");?>"></script>
 
-		<script async src="//cdn.rawgit.com/abhinayrathore/Bootstrap-Youtube-Popup-Player-Plugin/master/bootstrap.youtubepopup.js"></script>
+		<script src="//cdn.rawgit.com/abhinayrathore/Bootstrap-Youtube-Popup-Player-Plugin/master/bootstrap.youtubepopup.js"></script>
 
 		<script>
 			/*!
