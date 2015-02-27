@@ -315,6 +315,5 @@ include("./include/resources.class.php");
 				$(".youtube").YouTubeModal({autoplay:1});
 			});
 		</script>
-
 	</body>
 </html>
