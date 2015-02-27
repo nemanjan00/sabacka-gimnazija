@@ -252,7 +252,7 @@ include("./include/resources.class.php");
 					</ul>
 				</nav>
 
-			<footer class="panel">&copy; Шабачка гимназија <?=date("Y");?> | CDN спонзорисао <a href="https://www.maxcdn.com/">MaxCDN</a> | Технички реализовао <a target="_blank" href="http://nemanjan00.com">Немања Недељковић</a></footer>
+			<footer class="panel">&copy; Шабачка гимназија <?=date("Y");?> | CDN спонзорисао <a target="_blank" href="https://www.maxcdn.com/">MaxCDN</a> | Технички реализовао <a target="_blank" href="http://nemanjan00.com">Немања Недељковић</a></footer>
 		</div>
 
 		<!-- script references -->

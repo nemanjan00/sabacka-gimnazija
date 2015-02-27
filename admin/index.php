@@ -11,7 +11,7 @@ include("../include/resources.class.php");
 		<meta name="description" content="">
 		<meta name="author" content="">
 
-		<title>SB Admin 2 - Bootstrap Admin Theme</title>
+		<title>Admin panel</title>
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,7 +35,7 @@ include("../include/resources.class.php");
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html">SB Admin v2.0</a>
+					<a class="navbar-brand" href="index.html">Šabačka gimnazija</a>
 				</div>
 				<!-- /.navbar-header -->
 
