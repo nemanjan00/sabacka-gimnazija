@@ -7,6 +7,8 @@ include("./include/resources.class.php");
 	<head>
 		<base href="<?=(htmlspecialchars(dirname($_SERVER["SCRIPT_NAME"])) == "/")?"":htmlspecialchars(dirname($_SERVER["SCRIPT_NAME"]));?>/" />
 
+		<link href="<?=$resources->getStaticResource("img/favicon.ico");?>" rel="icon" type="image/x-icon" />
+
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
 		<title>Шабачка гимназија</title>
