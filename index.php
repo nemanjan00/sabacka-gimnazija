@@ -252,7 +252,7 @@ include("./include/resources.class.php");
 					</ul>
 				</nav>
 
-			<footer class="panel">&copy; Шабачка гимназија <?=date("Y");?></footer>
+			<footer class="panel">&copy; Шабачка гимназија <?=date("Y");?> | CDN sponzorisao <a href="https://www.maxcdn.com/">MaxCDN</a></footer>
 		</div>
 
 		<!-- script references -->
