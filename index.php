@@ -263,8 +263,6 @@ include("./include/resources.class.php");
 
 		<script async src="<?=$resources->getStaticResource("js/scripts.js");?>"></script>
 
-		<script src="//cdn.rawgit.com/abhinayrathore/Bootstrap-Youtube-Popup-Player-Plugin/master/bootstrap.youtubepopup.js"></script>
-
 		<script>
 			/*!
 			loadCSS: load a CSS file asynchronously.
@@ -312,7 +310,11 @@ include("./include/resources.class.php");
 
 			loadCSS("//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css");
 			loadCSS("<?=$resources->getStaticResource("css/styles.css");?>");
+		</script>
 
+		<script src="//cdn.rawgit.com/abhinayrathore/Bootstrap-Youtube-Popup-Player-Plugin/master/bootstrap.youtubepopup.js"></script>
+
+		<script>
 			$(function () {
 				$(".youtube").YouTubeModal({autoplay:1});
 			});
