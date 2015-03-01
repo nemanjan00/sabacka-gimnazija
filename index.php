@@ -4,7 +4,7 @@ include("./include/resources.class.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+	<head>		
 		<base href="<?=(htmlspecialchars(dirname($_SERVER["SCRIPT_NAME"])) == "/")?"":htmlspecialchars(dirname($_SERVER["SCRIPT_NAME"]));?>/" />
 
 		<link href="<?=$resources->getStaticResource("img/favicon.ico");?>" rel="icon" type="image/x-icon" />
