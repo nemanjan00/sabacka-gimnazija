@@ -1,5 +1,9 @@
 <?php
-ob_start();
+class home extends controller{
+	public function __construct(){
+		parent::__construct();
+
+		ob_start();
 ?>
 		<div class="sadrzaj container">
 			<div class="row">
@@ -12,7 +16,7 @@ ob_start();
 					</ol>
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
-							<img src="<?=$resources->getDynamicResource("gimnazija/skola_01.jpg");?>" alt="First slide">
+							<img src="<?=$this->getDynamicResource("gimnazija/skola_01.jpg");?>" alt="First slide">
 							<div class="container">
 								<div class="carousel-caption">
 									<h1>Добродошли</h1>
@@ -26,7 +30,7 @@ ob_start();
 							</div>
 						</div>
 						<div class="item">
-							<img src="<?=$resources->getDynamicResource("gimnazija/skola_02.jpg");?>" alt="Second slide">
+							<img src="<?=$this->getDynamicResource("gimnazija/skola_02.jpg");?>" alt="Second slide">
 							<div class="container">
 								<div class="carousel-caption">
 									<h1>Another example headline.</h1>
@@ -36,7 +40,7 @@ ob_start();
 							</div>
 						</div>
 						<div class="item">
-							<img src="<?=$resources->getDynamicResource("gimnazija/skola_14.jpg");?>" alt="Third slide">
+							<img src="<?=$this->getDynamicResource("gimnazija/skola_14.jpg");?>" alt="Third slide">
 							<div class="container">
 								<div class="carousel-caption">
 									<h1>One more for good measure.</h1>
@@ -107,9 +111,11 @@ ob_start();
 			<footer class="panel">&copy; Шабачка гимназија <?=date("Y");?> | CDN спонзорисао <a target="_blank" href="https://www.maxcdn.com/">MaxCDN</a> | Технички реализовао <a target="_blank" href="http://nemanjan00.com">Немања Недељковић</a></footer>
 		</div>
 <?php
+		$content = ob_get_clean();
 
-$content = ob_get_clean();
+		$page = new page($content);
 
-$page = new page($content);
+		$page->render();
 
-$page->render();
+	}
+}
