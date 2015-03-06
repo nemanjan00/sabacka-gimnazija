@@ -73,7 +73,7 @@ class home extends controller{
 						<h1>Велики успех наших ученика на Државном такмичењу из математике</h1>
 						<p>Додато: 03.03.2015.</p>
 
-						<img src="img/gimnazija/takmicari.jpg" class="glavna">
+						<img src="<?=$this->getDynamicResource("gimnazija/takmicari.jpg");?>" class="glavna">
 
 						На <strong>Државном такмичењу из математике</strong>, одржаном 28.2.2015. године у Зајечару, наши ученици су постигли ОДЛИЧАН резултат.
 						<strong>Младен Самарџић </strong>и <strong>Радоица Драшкић</strong>, ученици 4. разреда освојили су <strong>ПРВУ НАГРАДУ</strong>, а <strong>Вукашин Божић</strong>, ученик 2.разреда освојио је <strong>ТРЕЋУ НАГРАДУ</strong>.
