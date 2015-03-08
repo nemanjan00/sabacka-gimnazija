@@ -14,5 +14,3 @@ require("./include/app.class.php");
 require("./include/controller.class.php");
 
 $app = new app();
-
-//print_r($_SERVER["REQUEST_URI"]);

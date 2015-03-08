@@ -1,5 +1,5 @@
 <?php
-class home extends controller{
+class vesti extends controller{
 	public function __construct($parms){
 		parent::__construct();
 
