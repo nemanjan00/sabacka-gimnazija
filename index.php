@@ -1,11 +1,15 @@
 <?php
-include("./include/config.php");
-include("./include/resources.class.php");
-include("./include/page.class.php");
-include("./include/app.class.php");
-include("./include/controller.class.php");
+//Dependencies
+require('./vendor/autoload.php');
 
-include("./include/controllers/home.class.php");
+//Config
+require("./include/config.php");
+
+//Core
+require("./include/resources.class.php");
+require("./include/page.class.php");
+require("./include/app.class.php");
+require("./include/controller.class.php");
 
 $app = new app();
 
