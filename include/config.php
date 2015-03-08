@@ -3,11 +3,11 @@ class config{
 	private $config = Array();
 
 	public function __construct(){
-		$this->config["pullzone"] = "https://sabackagimnazija-na1424817126.netdna-ssl.com/";
-		//$this->config["pullzone"] = "/";
+		$this->config["pullzone"] = getenv("pullzone");
 
-		$this->config["pushzone"] = "https://s3sabackagimnazija-na1424817126.netdna-ssl.com/";
-		//$this->config["pushzone"] = "img/";
+		$this->config["pushzone"] = getenv("pushzone");
+
+		$this->config["AWS_ACCESS_KEY_ID"] = getenv("AWS_ACCESS_KEY_ID");
 	}
 
 	public function readValue($name){
