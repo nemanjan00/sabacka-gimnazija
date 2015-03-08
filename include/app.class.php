@@ -1,6 +1,6 @@
 <?php
 class app{
-	public function __construct($content){
+	public function __construct(){
 		$parms = $this->fixParms(explode("/", $_SERVER["REQUEST_URI"]));
 
 		$controller = "home";
@@ -16,12 +16,10 @@ class app{
 
 		require("./include/controllers/$controller.class.php");
 
-		$controller = new $controller();
+		$controller = new $controller($parms);
 	}
 
 	private function fixParms($explode){
-		print_r($xplode);
-
 		$parms = Array();
 
 		foreach($explode as $parm){

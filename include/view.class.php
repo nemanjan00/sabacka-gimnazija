@@ -1,5 +1,5 @@
 <?php
-class controller{
+class view{
 	private $resources;
 
 	public function __construct(){
@@ -12,12 +12,5 @@ class controller{
 
 	public function getDynamicResource($name){
 		return $this->resources->getDynamicResource($name);
-	}
-
-	public function loadView($name){
-		require("./include/views/$name.class.php");
-		$view = new $name();
-
-		return $view;
 	}
 }
