@@ -60,8 +60,9 @@ class vesti extends controller{
 <?php
 		$content = ob_get_clean();
 
-		$page = new page($content);
+		$page = $this->loadView("page");
 
+		$page->setContent($content);
 		$page->render();
 
 	}

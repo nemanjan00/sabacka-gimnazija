@@ -142,12 +142,12 @@ class page extends view{
 							<ul class="dropdown-menu" style="padding:12px;">
 								<form method="POST" action="./admin">
 									<div class="input-group">
-										<span class="input-group-addon" id="basic-addon2"><i class="glyphicon glyphicon-user"></i></span>
+										<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
 										<input type="text" class="form-control" placeholder="Корисничко име...">
 									</div><!-- /input-group -->
 									<br>
 									<div class="input-group">
-										<span class="input-group-addon" id="basic-addon2"><i class="glyphicon glyphicon-asterisk"></i></span>
+										<span class="input-group-addon"><i class="glyphicon glyphicon-asterisk"></i></span>
 										<input type="password" class="form-control" placeholder="Шифра...">
 									</div><!-- /input-group -->
 									<br>
