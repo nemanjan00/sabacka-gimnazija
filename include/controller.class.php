@@ -1,9 +1,11 @@
 <?php
 class controller{
 	private $resources;
+	private $database;
 
 	public function __construct(){
 		$this->resources = new resources();
+		$this->database = new database();
 	}
 
 	public function getStaticResource($name){

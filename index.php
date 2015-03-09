@@ -7,6 +7,9 @@ require('./vendor/autoload.php');
 //Config
 require("./include/config.php");
 
+//Database
+require("./include/database.class.php");
+
 //Core
 require("./include/resources.class.php");
 require("./include/controller.class.php");
