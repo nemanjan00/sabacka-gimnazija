@@ -5,7 +5,7 @@ class controller{
 
 	public function __construct(){
 		$this->resources = new resources();
-		$this->database = new database();
+		//$this->database = new database();
 	}
 
 	public function getStaticResource($name){
