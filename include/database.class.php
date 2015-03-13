@@ -9,7 +9,8 @@ class database{
 		$dbname = $this->config->readValue("db")["dbname"];
 		$host = $this->config->readValue("db")["host"];
 		$user = $this->config->readValue("db")["user"];
-		$password = $this->config->readValue("db")["password"];
+		$pass = $this->config->readValue("db")["pass"];
+		$path = substr($this->config->readValue("db")["path"], 1);
 
 		$this->db = new PDO("pgsql:dbname=$dbname;host=$host;user=$user;password=$password");
 	}
