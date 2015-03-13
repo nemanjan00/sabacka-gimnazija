@@ -10,8 +10,6 @@ class config{
 		$this->config["AWS_ACCESS_KEY_ID"] = getenv("AWS_ACCESS_KEY_ID");
 
 		$this->config["db"] = $this->databaseConfig();
-
-		print_r($this->config["db"]);
 	}
 
 	public function readValue($name){

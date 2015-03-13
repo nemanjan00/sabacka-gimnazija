@@ -11,8 +11,6 @@ class database{
 		$pass = $this->config->readValue("db")["pass"];
 		$path = substr($this->config->readValue("db")["path"], 1);
 
-		echo "pgsql:dbname=$dbname;host=$host;user=$user;password=$password";
-
 		$this->db = new PDO("pgsql:dbname=$path;host=$host;user=$user;password=$pass");	}
 
 	public function getDB(){
