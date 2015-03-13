@@ -17,7 +17,9 @@ class config{
 	}
 
 	private function databaseConfig(){
-		return Array();
+		print_r($_ENV["DATABASE_URL"]);
+
+		return parse_url($_ENV["DATABASE_URL"]);
 	}
 }
 
