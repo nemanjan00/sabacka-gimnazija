@@ -35,7 +35,7 @@ if($vest->tumbnail != ""){
 <?php
 }
 ?>
-						<?=$vest->content;?>
+						<?=$this->mb_word_wrap($vest->content, 500);?>
 
 						<br><br>
 
