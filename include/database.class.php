@@ -6,7 +6,6 @@ class database{
 	public function __construct(){
 		$this->config = new config();
 
-		$dbname = $this->config->readValue("db")["dbname"];
 		$host = $this->config->readValue("db")["host"];
 		$user = $this->config->readValue("db")["user"];
 		$pass = $this->config->readValue("db")["pass"];
@@ -14,7 +13,7 @@ class database{
 
 		echo "pgsql:dbname=$dbname;host=$host;user=$user;password=$password";
 
-		$this->db = new PDO("pgsql:dbname=$dbname;host=$host;user=$user;password=$password");	}
+		$this->db = new PDO("pgsql:dbname=$path;host=$host;user=$user;password=$pass");	}
 
 	public function getDB(){
 		return $this->db;
