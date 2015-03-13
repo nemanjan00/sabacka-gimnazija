@@ -3,6 +3,8 @@ class home extends controller{
 	public function __construct($parms){
 		parent::__construct();
 
+		$vesti = $this->loadModel("vest");
+
 		ob_start();
 ?>
 		<div class="sadrzaj container">
@@ -16,26 +18,39 @@ class home extends controller{
 				</div>-->
 
 				<div class="col col-sm-12">
+
+<?php
+$vestiR = $vesti->selectAll();
+
+foreach($vestiR as $vest){
+?>
 					<div class="panel post">
-						<h1>Велики успех наших ученика на Државном такмичењу из математике</h1>
+						<h1><?=$vest->title;?></h1>
 						<p>Додато: 03.03.2015.</p>
 
-						<img src="<?=$this->getDynamicResource("gimnazija/takmicari.jpg");?>" class="glavna">
-
-						На <strong>Државном такмичењу из математике</strong>, одржаном 28.2.2015. године у Зајечару, наши ученици су постигли ОДЛИЧАН резултат.
-						<strong>Младен Самарџић </strong>и <strong>Радоица Драшкић</strong>, ученици 4. разреда освојили су <strong>ПРВУ НАГРАДУ</strong>, а <strong>Вукашин Божић</strong>, ученик 2.разреда освојио је <strong>ТРЕЋУ НАГРАДУ</strong>.
-						Посебно је важно напоменути да су Младен и Радоица овим резултатом обезбедили учешће на <strong>Српској математичкој олимпијади</strong> !!!
-						Честитамо ученицима и њиховим професорима <strong>Мирјани Ћорилић</strong> и <strong>Синиши Мозетићу</strong> !!!!!!
+<?php
+if($vest->tumbnail != ""){
+?>
+						<img src="<?=$this->getDynamicResource($vest->tumbnail);?>" class="glavna">
+<?php
+}
+?>
+						<?=$vest->content;?>
 
 						<br><br>
 
 						<button class="btn btn-lg btn-primary">Прочитајте више...</button>
 						<br><br>
 					</div>
+
+<?php
+}
+?>
+
 				</div>
 			</div>
 
-			<nav>
+			<!--<nav>
 				<ul class="pagination">
 					<li>
 						<a href="#" aria-label="Previous">
@@ -53,7 +68,7 @@ class home extends controller{
 						</a>
 						</li>
 					</ul>
-				</nav>
+				</nav>-->
 
 			<footer class="panel">&copy; Шабачка гимназија <?=date("Y");?> | CDN спонзорисао <a target="_blank" href="https://www.maxcdn.com/">MaxCDN</a> | Технички реализовао <a target="_blank" href="http://nemanjan00.com">Немања Недељковић</a></footer>
 		</div>

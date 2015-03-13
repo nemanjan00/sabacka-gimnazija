@@ -5,7 +5,6 @@ class controller{
 
 	public function __construct(){
 		$this->resources = new resources();
-		$this->database = new database();
 	}
 
 	public function getStaticResource($name){
@@ -18,6 +17,13 @@ class controller{
 
 	public function loadView($name){
 		require("./include/views/$name.class.php");
+		$view = new $name();
+
+		return $view;
+	}
+
+	public function loadModel($name){
+		require("./include/models/$name.class.php");
 		$view = new $name();
 
 		return $view;
