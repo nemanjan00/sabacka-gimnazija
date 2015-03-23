@@ -9,7 +9,7 @@ class app{
 			if(file_exists("./include/controllers/".$parms[0].".class.php")){
 				$controller = $parms[0];
 
-				unset($parms);
+				unset($parms[0]);
 				$parms = $this->fixParms($parms);
 			}
 		}

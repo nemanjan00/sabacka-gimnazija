@@ -4,7 +4,5 @@ class vest extends database{
 		parent::__construct();
 
 		$this->table = "vesti";
-
-		$this->selectAll();
 	}
 }
