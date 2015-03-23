@@ -39,7 +39,7 @@ if($vest->tumbnail != ""){
 
 						<br><br>
 
-						<button class="btn btn-lg btn-primary">Прочитајте више...</button>
+						<a href="/vesti/<?=$vest->id;?>" class="btn btn-lg btn-primary">Прочитајте више...</a>
 						<br><br>
 					</div>
 
