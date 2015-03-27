@@ -50,5 +50,19 @@ class database{
 
 		return $result;
 	}
+
+	public function selectByArgument($argument, $value){
+		$STH = $this->db->prepare("SELECT * FROM ".$this->table." WHERE $argument=:value");
+
+		$STH->execute(Array('value' => $value));
+
+		$result = Array();
+
+		foreach ($STH as $row) {
+			$result[] = $row;
+		}
+
+		return $result;
+	}
 }
 ?>

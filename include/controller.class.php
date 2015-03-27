@@ -16,14 +16,20 @@ class controller{
 	}
 
 	public function loadView($name){
-		require("./include/views/$name.class.php");
+		if(!class_exists($name)){
+			require_once("./include/views/$name.class.php");
+		}
+
 		$view = new $name();
 
 		return $view;
 	}
 
 	public function loadModel($name){
-		require("./include/models/$name.class.php");
+		if(!class_exists($name)){
+			require_once("./include/models/$name.class.php");
+		}
+		
 		$view = new $name();
 
 		return $view;

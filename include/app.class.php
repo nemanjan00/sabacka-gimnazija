@@ -1,5 +1,5 @@
 <?php
-class app{
+class app extends controller{
 	public function __construct(){
 		$parms = $this->fixParms(explode("/", $_SERVER["REQUEST_URI"]));
 
@@ -11,6 +11,16 @@ class app{
 
 				unset($parms[0]);
 				$parms = $this->fixParms($parms);
+			}
+			else
+			{
+				$stranica = $this->loadModel("stranica");
+
+				$stranice = $stranica->selectByArgument("shortname", $parms[0]);
+
+				if(count($stranice) == 1){
+					$controller = "strana_controller";
+				}
 			}
 		}
 

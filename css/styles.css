@@ -313,6 +313,10 @@ footer{
 	font-size:1.3em;
 }
 
+.strana-panel {
+	padding:27px;
+}
+
 /* Small devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {

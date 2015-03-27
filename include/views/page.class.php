@@ -173,7 +173,7 @@ class page extends view{
 if($this->carousel){
 ?>
 		<header>
-			<img src="<?=$this->getStaticResource("img/logo.png");?>">
+			<a href="/"><img src="<?=$this->getStaticResource("img/logo.png");?>"></a>
 		</header>
 
 <?=$this->carouselContent;?>
