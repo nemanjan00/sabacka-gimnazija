@@ -127,12 +127,12 @@ class page extends view{
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Упис <i class="glyphicon glyphicon-chevron-down"></i></a>
 
 							<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-								<li><a href="#">Бивши ученици</a></li>
-								<li><a href="#">Такмичења</a></li>
+								<li><a href="/smerovi">Смерови</a></li>
+								<li><a href="/pripremna-nastava">Припремна настава</a></li>
 							</ul>
 						</li>
 
-						<li><a href="#">Контакт</a></li>
+						<li><a href="/kontakt">Контакт</a></li>
 
 					</ul>
 					<ul class="nav navbar-right navbar-nav desni">
