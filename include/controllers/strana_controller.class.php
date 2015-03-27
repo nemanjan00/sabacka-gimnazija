@@ -72,7 +72,7 @@ foreach($paneli as $panel){
 		$page = $this->loadView("page");
 
 		$page->setContent($content);
-		$page->setCarouselContent($carouselContent);
+		//$page->setCarouselContent($carouselContent);
 
 		$page->render();
 
