@@ -37,6 +37,11 @@ class page extends view{
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
+
+		<noscript>
+			<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+			<link rel="stylesheet" type="text/css" href="<?=$this->getStaticResource("css/styles.css");?>">
+		</noscript>
 	</head>
 	<body>
 		<nav class="navbar navbar-default">
