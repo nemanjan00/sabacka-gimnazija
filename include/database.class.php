@@ -20,13 +20,13 @@ class database{
 	}
 
 	public function selectAll(){
-		$STH = $this->db->query('SELECT * FROM '.$this->table);
+		$STH = $this->db->prepare("SELECT * FROM ".$this->table);
 
-		$STH->setFetchMode(PDO::FETCH_OBJ);
+		$STH->execute();
 
 		$result = Array();
 
-		while($row = $STH->fetch()) {
+		foreach ($STH as $row) {
 			$result[] = $row;
 		}
 
