@@ -234,6 +234,10 @@ a,a:hover {
 	.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse{
 		max-height: none !important;
 	}
+
+	.carousel {
+		display: none;
+	}
 }
 
 /* Podmeniji */
