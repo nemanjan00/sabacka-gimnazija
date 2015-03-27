@@ -34,21 +34,7 @@ class database{
 	}
 
 	public function selectByID($id){
-		$STH = $this->db->query('SELECT * FROM '.$this->table.' WHERE id='.intval($id));
-
-		if(!$STH){
-			return Array();
-		}
-
-		@$STH->setFetchMode(PDO::FETCH_OBJ);
-
-		$result = Array();
-
-		while($row = @$STH->fetch()) {
-			$result[] = $row;
-		}
-
-		return $result;
+		return $this->selectByArgument("id", $id);
 	}
 
 	public function selectByArgument($argument, $value){

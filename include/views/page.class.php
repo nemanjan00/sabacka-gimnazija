@@ -48,7 +48,7 @@ class page extends view{
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Шабачка гимназија</a>
+				<a class="navbar-brand" href="/">Шабачка гимназија</a>
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
@@ -57,8 +57,8 @@ class page extends view{
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">О школи <i class="glyphicon glyphicon-chevron-down"></i></a>
 
 							<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-								<li><a href="#">Историјат</a></li>
-								<li><a href="#">Школа данас</a></li>
+								<li><a href="/istorijat">Историјат</a></li>
+								<li><a href="/skola-danas">Школа данас</a></li>
 							</ul>
 						</li>
 
@@ -66,8 +66,8 @@ class page extends view{
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ученици <i class="glyphicon glyphicon-chevron-down"></i></a>
 
 							<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-								<li><a href="#">Бивши ученици</a></li>
-								<li class="menu-item"><a href="#">Такмичења</a></li>
+								<li><a href="/bivsi-ucenici">Бивши ученици</a></li>
+								<li><a href="/takmicenja">Такмичења</a></li>
 								<li class="menu-item dropdown dropdown-submenu">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ученички парламент</a>
 									<ul class="dropdown-menu">
@@ -101,7 +101,8 @@ class page extends view{
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Секције</a>
 									<ul class="dropdown-menu">
 										<li>
-											<a href="#">Филмска</a>
+											<a target="_blank" href="http://filmska-sekcija.sabackagimnazija.edu.rs">Филмска</a>
+											<a target="_blank" href="http://debata.sabackagimnazija.edu.rs/">Дебатни Клуб</a>
 										</li>
 									</ul>
 								</li>
@@ -112,13 +113,13 @@ class page extends view{
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Колектив <i class="glyphicon glyphicon-chevron-down"></i></a>
 
 							<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-								<li><a href="#">Директор</a></li>
-								<li><a href="#">Стручна служба</a></li>
-								<li><a href="#">Професори</a></li>
-								<li><a href="#">Секретаријат</a></li>
-								<li><a href="#">Помоћно особље</a></li>
-								<li><a href="#">Школски одбор</a></li>
-								<li><a href="#">Савет родитеља</a></li>
+								<li><a href="/direktor">Директор</a></li>
+								<li><a href="/strucna-sluzba">Стручна служба</a></li>
+								<li><a href="/profesori">Професори</a></li>
+								<li><a href="/sekretarijat">Секретаријат</a></li>
+								<li><a href="/pomocno-osoblje">Помоћно особље</a></li>
+								<li><a href="/skolski-odbor">Школски одбор</a></li>
+								<li><a href="/savet-roditelja">Савет родитеља</a></li>
 							</ul>
 						</li>
 
