@@ -25,21 +25,21 @@ $vestiR = $vesti->selectAll();
 foreach($vestiR as $vest){
 ?>
 					<div class="panel post">
-						<h1><?=$vest->title;?></h1>
+						<h1><?=$vest["title"];?></h1>
 						<p>Додато: 03.03.2015.</p>
 
 <?php
-if($vest->tumbnail != ""){
+if($vest["tumbnail"] != ""){
 ?>
-						<img src="<?=$this->getDynamicResource($vest->tumbnail);?>" class="glavna">
+						<img src="<?=$this->getDynamicResource($vest["tumbnail"]);?>" class="glavna">
 <?php
 }
 ?>
-						<?=$this->mb_word_wrap($vest->content, 500);?>
+						<?=$this->mb_word_wrap($vest["content"], 500);?>
 
 						<br><br>
 
-						<a href="/vesti/<?=$vest->id;?>" class="btn btn-lg btn-primary">Прочитајте више...</a>
+						<a href="/vesti/<?=$vest["id"];?>" class="btn btn-lg btn-primary">Прочитајте више...</a>
 						<br><br>
 					</div>
 
