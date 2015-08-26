@@ -1,18 +1,21 @@
 <?php
 class database{
-	private $config;
-	private $db;
+	protected $db;
 	protected $table;
+	private $config;
 
 	public function __construct(){
 		$this->config = new config();
 
-		$host = $this->config->readValue("db")["host"];
-		$user = $this->config->readValue("db")["user"];
-		$pass = $this->config->readValue("db")["pass"];
-		$path = substr($this->config->readValue("db")["path"], 1);
+		$dbc = $this->config->readValue("db");
 
-		$this->db = new PDO("pgsql:dbname=$path;host=$host;user=$user;password=$pass");
+		$scheme = $dbc["scheme"];
+		$host = $dbc["host"];
+		$user = $dbc["user"];
+		$pass = $dbc["pass"];
+		$path = substr($dbc["path"], 1);
+
+		$this->db = new PDO("$scheme:dbname=$path;host=$host;", $user, $pass);
 	}
 
 	public function getDB(){
@@ -37,16 +40,28 @@ class database{
 		return $this->selectByArgument("id", $id);
 	}
 
-	public function selectByArgument($argument, $value){
-		$STH = $this->db->prepare("SELECT * FROM ".$this->table." WHERE $argument=:value");
+	public function selectByArgument($argument, $value, $sort = false, $type = "ASC"){
+		return $this->selectByArguments(Array($argument => $value), $sort, $type);
+	}
 
-		$STH->execute(Array('value' => $value));
+	public function selectByArguments($arguments, $sort = false, $type = "ASC"){
+		$clauses = Array();
 
-		$result = Array();
-
-		foreach ($STH as $row) {
-			$result[] = $row;
+		foreach($arguments as $argument => $value){
+			$clauses[] = "$argument = :$argument";
 		}
+
+		if($sort){
+			$STH = $this->db->prepare("SELECT * FROM ".$this->table." WHERE  ".implode(" AND ", $clauses)." ORDER BY $sort $type");
+		}
+		else
+		{
+			$STH = $this->db->prepare("SELECT * FROM ".$this->table." WHERE  ".implode(" AND ", $clauses));
+		}
+
+		$STH->execute($arguments);
+
+		$result = $STH->fetchAll(PDO::FETCH_NAMED);
 
 		return $result;
 	}

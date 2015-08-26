@@ -3,21 +3,31 @@ class config{
 	private $config = Array();
 
 	public function __construct(){
-		$this->config["pullzone"] = getenv("pullzone");
-
-		$this->config["pushzone"] = getenv("pushzone");
-
-		$this->config["AWS_ACCESS_KEY_ID"] = getenv("AWS_ACCESS_KEY_ID");
-
 		$this->config["db"] = $this->databaseConfig();
 	}
 
 	public function readValue($name){
-		return $this->config[$name];
+		if(isset($this->config[$name])){
+			return $this->config[$name];
+		}
+		else
+		{
+			return getenv($name);
+		}
+	}
+
+	public function setValue($name, $value){
+		$this->config[$name] = $value;
 	}
 
 	private function databaseConfig(){
-		return parse_url(getenv("DATABASE_URL"));
+		$db =  parse_url(getenv("DATABASE_URL"));
+
+		if($db["scheme"] == "postgres"){
+			$db["scheme"] = "pgsql";
+		}
+
+		return $db;
 	}
 }
 
